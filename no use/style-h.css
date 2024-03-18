@@ -1,0 +1,50 @@
+/* Styles for header */
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Styles for upper section */
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.image-container {
+  display: flex;
+  /* width: 30px; Adjust width as needed */
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100px;
+}
+
+.image-container img {
+  width: 50%;
+  display: block;
+}
+
+
+/* Styles for lower section */
+.lower-section {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.lower-section h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+@media screen and (max-height: 450px) {
+  .upper-section {
+    display: flex;
+  }
+
+  .image-container img {
+    width: 100%;
+    display: block;
+  }
+}

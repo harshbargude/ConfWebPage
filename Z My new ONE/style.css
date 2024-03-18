@@ -1,0 +1,554 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+.Main-Div-body {
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px 0px;
+    background-color: #ffffff;
+    /* border-radius: 13px; */
+}
+
+.containerrev {
+    padding: 0 0px;
+    max-width: 1000px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.DM {
+    display: flex;
+    gap: -3%;
+    padding: 10px;
+    background: #03040e;
+    color: white;
+    margin: 0;
+    justify-content: space-evenly;
+    border-radius: 55px 55px 0px 0px;
+}
+
+.ABname {
+    width: 60%;
+}
+
+.ABname h3 {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: #000000;
+    background: #18d5a5;
+    border-radius: 23px;
+    padding: 13px 12px;
+}
+
+.MisVis .divF1 {
+    padding: 0;
+    margin: o;
+}
+
+.MisVis .folloUs {
+    max-height: 0px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.MisVis {
+    display: inline;
+}
+
+.MisVis h3 {
+    font-family: Arial, sans-serif;
+    display: block;
+    position: relative;
+    color: #000000;
+    background: #18d5a5;
+    border-radius: 23px;
+    padding: 13px 12px;
+    text-align: center;
+}
+
+/* FOOTER CSS */
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #03040e;
+    padding: 0;
+    /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.foot_link {
+    box-sizing: border-box;
+    height: auto;
+    text-align: center;
+}
+
+.foot_link i {
+    margin-top: 60px;
+}
+
+.footer.show {
+    opacity: 1;
+    /* Reveal the footer when the 'show' class is added */
+}
+
+
+.additional-content {
+    /* height: 1000px; */
+}
+
+i {
+    height: 12px;
+}
+
+.content {
+    /* display: flex;
+    flex-direction: row; */
+    /* box-shadow: 0 0 10px rgb(130, 130, 130); */
+    text-align: center;
+    height: auto;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 15px;
+}
+
+
+.track-logo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.slider-content-in-c {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider-content-in-c.active {
+    opacity: 1;
+}
+
+.pagesCount-slider-content-in-c {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slide-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slide-nav input[type="radio"] {
+    display: none;
+}
+
+.slide-nav label {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #03040e;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.slide-nav input[type="radio"]:checked+label {
+    background-color: #18d5a5;
+    color: rgb(0, 0, 0);
+}
+
+#main-tracks-div-p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding:0; */
+}
+
+#main-tracks-div-p {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    align-items: stretch;
+}
+
+.track-container-c1 {
+    border: 4px solid #03040e;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f2f2f2;
+    /* box-sizing: border-box; */
+    /* min-width: 33%; */
+    width: 227px;
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+.content-item p {
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-angle-right:before {
+    font-size: 17px;
+}
+
+.track-logo img {
+    width: 100%;
+    /* height: auto; */
+    /* overflow:scroll; */
+    background-size: cover;
+    background-position: center;
+}
+
+.track-hrading {
+    color: slategray;
+    margin: 5px 0 13px 0;
+    padding: 2% 2% 0 2%;
+    font-size: 241%;
+    box-sizing: border-box;
+    font-weight: 1000;
+}
+.fa-angle-right:before {
+    content: "\f105";
+    color: #18d5a5;
+}
+.slider {
+    align-items: center;
+    /* height: 100vh; */
+    /* padding: 13px; */
+    /* border-radius: 55px; */
+    /* background-color: #03040e; */
+    /* box-shadow: 0 0 10px rgb(117, 117, 117); */
+
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* Adjust as needed */
+    overflow: auto;
+    align-items: center;
+    position: relative;
+    padding-top: 59px;
+}
+
+.slide {
+    width: 100%;
+    /* Adjust as needed */
+    height: 100%;
+    /* Adjust as needed */
+    display: none;
+    border-radius: 15px;
+    /* border: 1px solid rgb(8, 4, 25); */
+    /* z-index: 1; */
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* border-radius: 15px; */
+    border: "";
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgb(117, 117, 117);
+
+    /* z-index: 0; */
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #03040e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #00ff40;
+    transform: translateX(5px);
+    /* background-color: #ffffff; */
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sticky {
+    box-sizing: content-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 10px;
+}
+
+.nav {
+    margin: 0px 0 13px 0;
+    padding: 5px 23px;
+    /* border-radius: 5px; */
+    background-color: rgb(3 4 14);
+    align-items: center;
+    max-width: 100%;
+    z-index: 100;
+    color: white;
+}
+
+.nav-div-p {
+    box-sizing: border-box;
+    margin: auto;
+    /* background-color: #0a241e; */
+}
+
+/* .nav-div-p span{
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+} */
+#mySidenav {
+    max-width: 2000px;
+    /* width: auto; */
+}
+
+.submission-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.submission-info h2 {
+    color: #333;
+}
+
+.submission-info p {
+    line-height: 1.6;
+    font-size: 13px;
+}
+
+.submission-info .download-link {
+    margin-bottom: 10px;
+}
+
+.submission-info a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+.submission-info a:hover {
+    text-decoration: none;
+}
+.send-enqui a{
+    text-decoration: none;
+    color: black;
+}
+.int_p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+.innerc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+.send-enqui{
+    text-decoration: none;
+    background-color: #18d5a5;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+.fa-paper-plane:before {
+    content: "\f1d8";
+    color: #03040e;
+    padding-left: 5px;
+}
+.fa-globe:before {
+    padding-left: 5px;
+    content: "\f0ac";
+}
+.fa-download:before {
+    padding-left: 5px;
+    content: "\f019";
+}
+.con-div-inner{
+    /* border-right: 2px solid black; */
+    display: flex;
+    /* flex-direction: ; */
+    flex-direction: column  ;
+    /* justify-content: space-between; */
+    padding:auto 10px;
+}
+.div3-cont{
+    /* border-top: 2px solid black; */
+
+}
+.inner-left1{
+    display: flex;
+    justify-content:space-between;
+}
+.inner-left2{
+    justify-content:space-between;
+    display: flex;
+}
+.tho1000{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 20px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:600px) {
+    .track-container-c1 {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .containerrev {
+        padding: 0;
+    }
+
+    .DM {
+        display: flex;
+        padding: 40px 5%;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .ABname {
+        width: 100%;
+        align-items: center;
+    }
+
+    .MisVis {
+        align-items: center;
+        text-align: center;
+        justify-content: center
+    }
+
+    .MisVis h3 {
+        display: block;
+        text-align: center;
+    }
+
+    .ABname h3 {
+        display: block;
+        min-width: 160px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .foot_link {
+        display: flex;
+        height: 100px;
+        flex-direction: column;
+    }
+
+    .folloUs {
+        display: flex;
+        height: 100px;
+        justify-content: space-evenly;
+        gap: 23px;
+        height: auto;
+    }
+
+    .divF1 {
+        display: block;
+    }
+
+    .slider {
+        border-radius: 0px;
+    }
+
+    .slide img {
+        /* border-radius: 15px; */
+    }
+
+    .slide {
+        height: 200px;
+        /* border-radius: 0px; */
+    }
+
+    .nav {
+        /* width: 100%; */
+    }
+}

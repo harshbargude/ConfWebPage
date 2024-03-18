@@ -2,10 +2,13 @@
 .header {
   background-color: #ffffff;
   padding: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 /* Styles for upper section */
 .upper-section {
+  /* height: 300px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,17 +16,17 @@
 }
 
 .image-container {
-  display: flex;
+  /* display:flex; */
   /* width: 30px; Adjust width as needed */
   align-items: center;
-  justify-content: center;
-  margin: auto;
-  height: 100px;
+  text-align: center;
+  /* justify-content: center; */
+  margin: 0;
 }
 
 .image-container img {
-  width: 50%;
-  display: block;
+  width: 100%;
+  /* display: block; */
 }
 
 
@@ -31,20 +34,21 @@
 .lower-section {
   text-align: center;
   padding-top: 20px;
+  font-size: 38px;
 }
 
 .lower-section h1 {
   font-size: 24px;
   margin: 0;
+  color: rgb(219, 144, 7);
 }
 
-@media screen and (max-height: 450px) {
-  .upper-section {
-    display: flex;
-  }
-
+@media (max-height: 500px) {
   .image-container img {
     width: 100%;
-    display: block;
+    /* display: block; */
+  }
+  .lower-section{
+    font-size:9px;
   }
 }
